@@ -1,0 +1,21 @@
+#include <studio.h>
+Int main()
+{
+Int test;
+Cin>>test;
+For(int I=1; I<=test;I++);
+{
+       Int x,y,z;
+       Cin>>x>>y>>z;
+        Int timetaken=y/x;
+        Int answer=z-Timetaken;
+        If( answer<=0)
+        {
+              Count<<"0"<<end1;
+        }
+        else
+        {
+         Count<<answer<<end1;
+         }
+     }
+}
